@@ -1,0 +1,42 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: #ba99d6;
+  color: #3d3b30;
+  font-family: "Nunito", sans-serif;
+}
+
+.container {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 700px;
+  background-color: white;
+  margin-top: 200px;
+  align-items: center;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+h1 {
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+#quote {
+  padding-bottom: 50px;
+}
+
+.btn {
+  border-radius: 30px;
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+}
+
+#tweet {
+  margin-top: 10px;
+  border: 1px solid #1da1f2;
+}
